@@ -1,0 +1,38 @@
+/*Mobile viewport portrait*/
+@media screen and
+    (max-width: 500px){
+    html{
+        font-size: 80%;
+    }
+    .devpng{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+}
+/*Mobile viewport landscape*/
+@media screen and 
+    (max-height: 720px){
+        html{
+            font-size: 60%;
+        }
+}
+@media screen and 
+    (max-height: 300px){
+        .introBox{
+            font-size: 60%;
+        }
+        .devpng{
+            display: none;
+        }
+}
+/*Desktop viewport landscape*/
+@media screen and 
+    (min-width: 1000px)and 
+    (min-height: 700px){
+        .introBox{
+            font-size: 150%;
+        }
+
+}

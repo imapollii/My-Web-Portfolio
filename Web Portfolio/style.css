@@ -1,0 +1,118 @@
+@import url('imports/media.css');
+
+
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    width: 101%;
+    height: auto;
+    position: fixed;
+    margin: -10px;
+    background-color: white;
+}
+.footer{
+    width: 101%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    top: 255%;
+    position: absolute;
+    margin: -10px;
+}
+.credit{
+    font-size: 12px;
+    top: 80%;
+    position: relative;
+    color: rgb(114, 114, 114);
+    text-align: center;
+}
+.btn{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    float: right;
+}
+.btn:hover{
+    color: rgb(255, 135, 135);
+    transition: .2s;
+}
+.btn1{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-right: 40px;
+}
+.btn1:hover{
+    color: rgb(255, 135, 135);
+    transition: .2s;
+}
+.containerPage1{
+    width: 101%;
+    height: 95%;
+    margin: -10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+.bodyPage{
+    width: 95%;
+    height: 90%;
+    margin: 25px;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: all 2s;
+}
+.bodyPageshow{
+    opacity: 1;
+    transform: translateY(0);
+}
+.introBox{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 150px;
+}
+.introText{
+    font-size: 100%;
+    text-align: justify;
+    color: rgb(126, 126, 126);
+}
+.name{
+    font-size: 300%;
+    text-align: justify;
+    color: rgb(255, 135, 135);
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(196, 196, 196);
+}
+.devpng{
+    width: 35%;
+    height: auto;
+    position: relative;
+    float: right;
+    margin-top: 8%;
+}
+.containerPage2{
+    width: 101%;
+    height: 93%;
+    margin: -10px;
+    position: absolute;
+    background-color: rgb(255, 135, 135);
+    top: 95%;
+}
+.containerPage3{
+    width: 101%;
+    height: 70%;
+    margin: -10px;
+    position: absolute;
+    background-color: rgb(141, 73, 73);
+    top: 187%;
+}
